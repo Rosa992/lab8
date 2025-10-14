@@ -1,0 +1,11 @@
+Item #,Name,Type,Make,Model,Brand,Description
+100,Service One,Service,,,Programming Consultation,1 hour of consulting on web design concepts
+101,Service Two,Service,,,Programming Consultation,5 hours of consulting on web design concepts
+102,ProgCalc,Product,Casio,2020,,Programmable calculator
+103,ProgBook,Book,,,O'Reilly,A book on web design concepts
+104,Big Java Early Objects,Book,,7th Edition,Cay S Hostmann,A book on Java 
+105,Esssentials of Computer Organization and Architechture ,Book,,5th Edition,Linda Null ,A book on the essentials of computer architechture 
+106,Database Design,Book,,2nd Edition,Adrienne Watt ,A book on database design
+107,Database Processing Fundamentals Design and Implementation,Book,,15th Edition,David M Kroenke,A book on database processing fundamentals
+108,"A Practical Guide to Linux Commands, Editors and Shell Programming",Book,,3rd Edition,Mark G Sobell,A book on Linux commands editors and shell programming
+109,Programming Logic and Design,Book,,6th Edition,Joyce Farrell,A book on programming logic and design

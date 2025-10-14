@@ -1,0 +1,178 @@
+/*about me & contact page styles*/
+
+/* Global Styles */
+* {
+    color: #303841;
+}
+
+#top {
+  background-color: #33ff88;  
+  margin-top: 15px;
+padding-top: 10px;
+border: solid, grey, 2px;
+width: 1000px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#p {
+padding-top: 7%;
+margin-left: 2%;
+
+}
+
+/* Fields Styles */
+
+fieldset {
+    margin-top: 4px;
+    background-color:  #8f8e6e;
+}
+
+legend {
+color: #d46622;
+background-color:  #ccadbe;
+border: solid, 1px, #72072e;
+padding: 3px;
+font-weight: bold;
+}
+
+/* Table Styles */
+
+table {
+    width: 80%;
+    margin: 4px;
+    padding: 4px;
+    }
+    
+    td {
+        padding: 2px;
+    }
+
+    /* required Styles */
+.required {
+color #ffa600;
+}
+
+/* Data Styles */
+
+p.data {
+    padding-left: 8px;
+}
+
+[type|="submit"] {
+    background: #FFF574;
+  }
+
+
+
+/*NavBar styles*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #405D72;
+    overflow: auto;
+}
+
+    .navbar a {
+        float: left;
+        padding: 12px;
+        color: white;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+        .navbar a:hover {
+            background-color: #F7E7DC;
+        }
+
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+}
+
+
+
+
+
+/*Dropdown Menu styles*/
+
+.navbar {
+    overflow: hidden;
+    background-color: #758694;
+}
+
+    .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+    .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+
+    .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: #333;
+    }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+/* Date Styles*/
+
+#d {
+    text-align: left;
+    position: absolute;
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+    padding: 2%;
+    margin: 2%;
+}

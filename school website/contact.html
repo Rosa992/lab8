@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Icon Stylesheet-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <body>
+        <div class="navbar">
+            <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+            <a href="#"><i class="fa fa-fw fa-caret-down"></i> Products</a>
+            <a href="contact.html"><i class="fa fa-fw fa-caret-down"></i>Contact Us</a>
+            <a href="aboutme.html"></i> About</a>
+        </div>
+        <div id="top">
+<h1>Contact Us</h1>
+<p>Please complete the information below</p>
+<p>Fields marked with * are required fields </p>
+        </div>
+       <div id="data">
+        <form action="/action_page.php">
+            <fieldset>
+           <legend> Your Data </legend>
+             <label for="fname">First name: <span class="required">*</span></label><br>
+             <input type="text" id="fname" name="fname"  value=""><br>
+             <label for="lname">Last name: <span class="required">*</span></label><br>
+             <input type="text" id="lname" name="lname" value=""><br>
+             <label for="street">Street Address: <span class="required">*</span></label><br>
+             <input type="text" id="street" name="street" value=""><br>
+             <label for="city">City: <span class="required">*</span></label><br>
+             <input type="text" id="city" name="city" value=""><br>
+             <label for="province">Province: <span class="required">*</span></label><br>
+             <select name="province" id="province">
+               <option value="select">Select an Option</option>
+               <option value="alberta">Alberta</option>
+               <option value="britishcolumbia">British Columbia</option>
+               <option value="ontario">Ontario</option>
+               <option value="newfoundland&labrador">NewFoundland & Labrador</option>
+                <option value="new brunswick">New Brunswick</option>
+                <option value="prince edward">Prince Edward Island</option>
+                 <option value="nova scotia">Nova Scotia</option>
+                  <option value="saskatchewan">Saskatchewan</option>
+                   <option value="manitoba">Manitoba</option>
+                    <option value="quebec">Quebec</option>
+             </select> <br>
+             
+             
+           
+             <label for="pcode">Postal Code: <span class="required"></span>*</span></label><br>
+             <input type="text" id="pcode" name="postal code" value=""><br>
+             <label for="email">Email Address: <span class="required"></span>*</span></label><br>
+             <input type="text" id="email" name="email" value=""><br>
+             <label for="pnumber">Phone Number: <span class="required"></span>*</span></label><br>
+             <input type="text" id="pnumber" name="pnumber" value=""><br>
+            </fieldset>
+              <fieldset>
+              <legend> Agreement </legend>
+             <input type="checkbox" id="Agreement" name="Agreement" value="">
+             <label for="Agreement">  <span>*</span>Accept Agreement</label><br>
+             <input type="reset" value="Reset">
+              <input type="submit" value="Submit">
+              </fieldset>
+              
+           </form>
+           
+       </div> 
+       
+    </body>
+</html>
