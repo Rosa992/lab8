@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Liste de tâches</string>
+    <string name="add_button">Ajouter</string>
+    <string name="Urgent">Urgente</string>
+    <string name="hint_text">Entrez une nouvelle tâche</string>
+    <string name="delete_title">Voulez-vous supprimer ceci ?</string>
+    <string name="delete_message">La ligne sélectionnée est :</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+</resources>

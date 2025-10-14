@@ -7,19 +7,6 @@
     android:padding="16dp"
     tools:context=".MainActivity">
 
-    <!-- Input for new todo -->
-    <EditText
-        android:id="@+id/todoEditText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@+id/Type_Here" />
-
-    <!-- Button to add the todo -->
-    <Button
-        android:id="@+id/addButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@+id/add" />
 
     <!-- ListView to display todos -->
     <ListView
@@ -28,4 +15,29 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:dividerHeight="1dp" />
+
+
+
+    <!-- Input for new todo -->
+    <EditText
+        android:id="@+id/todoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_text"
+        android:autofillHints="item"
+        android:inputType="text"/>
+
+    <!-- Button to add the todo -->
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_button" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Urgent" />
+
 </LinearLayout>
