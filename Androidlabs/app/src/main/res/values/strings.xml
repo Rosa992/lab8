@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Androidlabs</string>
+    <string name="catImage">catImage</string>
+    <string name="cat_image">cat_image</string>
+</resources>
