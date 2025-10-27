@@ -2,4 +2,8 @@
     <string name="app_name">Androidlabs</string>
     <string name="catImage">catImage</string>
     <string name="cat_image">cat_image</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Name_fill_me">Name: fill_me</string>
+    <string name="Height_fill_me">Height: fill_me</string>
+    <string name="Mass_fill_me">Mass: fill_me</string>
 </resources>
