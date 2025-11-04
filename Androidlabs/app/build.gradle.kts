@@ -38,4 +38,5 @@ dependencies {
     implementation("androidx.fragment:fragment:1.6.1")
     implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.legacy:legacy-support-v4:1.0.0")
+    implementation(libs.activity)
 }
