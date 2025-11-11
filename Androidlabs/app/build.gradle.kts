@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.starwarsapp"
+    namespace = "com.example.lab8app"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.starwarsapp"
+        applicationId = "com.example.lab8app"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -39,4 +39,5 @@ dependencies {
     implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.legacy:legacy-support-v4:1.0.0")
     implementation(libs.activity)
+
 }

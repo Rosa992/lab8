@@ -17,11 +17,11 @@
             app:titleTextColor="@android:color/white" />
 
         <TextView
+            android:id="@+id/joke_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Welcome to Home!"
-            android:textSize="22sp"
             android:layout_gravity="center"
+            android:textSize="20sp"
             android:layout_marginTop="200dp"/>
     </LinearLayout>
 

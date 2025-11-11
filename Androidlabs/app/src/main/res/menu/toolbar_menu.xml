@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_choice1"
+        android:title="Choice 1"
+        android:icon="@drawable/badge_11952128"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="1" />
+
+    <item
+        android:id="@+id/action_choice2"
+        android:title="Choice 2"
+        android:icon="@drawable/second_place"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="2" />
+
+    <item
+        android:id="@+id/action_overflow"
+        android:title="Overflow Choice"
+        app:showAsAction="never" />
+</menu>
