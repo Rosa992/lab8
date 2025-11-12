@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Recherche Guardian</string>
+    <string name="app_version">v1.0</string>
+    <string name="app_name_with_version">Recherche Guardian - v1.0</string>
+    <string name="hint_search">Entrez un terme de recherche</string>
+    <string name="button_search">Rechercher</string>
+    <string name="button_open">Ouvrir</string>
+    <string name="button_save">Enregistrer</string>
+    <string name="nav_search">Recherche</string>
+    <string name="nav_favorites">Favoris</string>
+    <string name="menu_help">Aide</string>
+    <string name="help_main_activity">Tapez un terme et appuyez sur Rechercher. Appuyez sur un résultat pour afficher les détails. Utilisez le tiroir de navigation pour accéder aux Favoris.</string>
+    <string name="help_detail_activity">Cet écran affiche les détails. Utilisez Ouvrir pour lire l’article ou Enregistrer pour ajouter aux favoris.</string>
+    <string name="help_webview_activity">Ce navigateur intégré affiche l’article. Utilisez le bouton Retour pour revenir.</string>
+    <string name="toast_enter_search">Veuillez entrer un terme de recherche.</string>
+    <string name="snackbar_searching">Recherche de %1$s</string>
+    <string name="toast_search_failed">La recherche a échoué. Vérifiez le réseau.</string>
+    <string name="toast_results">%1$d résultats trouvés.</string>
+    <string name="toast_saved">Enregistré dans les favoris.</string>
+    <string name="toast_already_saved">Déjà enregistré.</string>
+    <string name="toast_deleted">Supprimé.</string>
+    <string name="delete">Supprimer</string>
+    <string name="confirm_delete">Supprimer ce favori ?</string>
+</resources>
